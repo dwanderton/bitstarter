@@ -75,7 +75,7 @@
       }
       .statistics h3, .statistics p {
         color: white;
-      } 
+      }
 
       /* Marketing Copy and Footer */
       .copy {
@@ -144,22 +144,23 @@
 
         <div class="row-fluid pitch">
           <div class="span5 offset1 video">
-              <img class="img-polaroid" src="http://i.imgur.com/XrKKX88.png">
-              <img class="img-polaroid" src="http://i.imgur.com/OQUng0I.png">
+              <img class="img-polaroid" alt="Image1" src="http://i.imgur.com/XrKKX88.png">
+              <img class="img-polaroid" alt="Image2" src="http://i.imgur.com/OQUng0I.png">
           </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons. -->
           <div class="span5 actions">
+            <div class="row-fluid">
             <div class="span8 offset2">
-              <div class="statistics">
+              <div class="row-fluid statistics">
 
               <div class="span4">
                 <!-- linediv-l and linediv-r give dividing lines that look different in horizontal and vertical layouts, illustrating media queries. -->
                 <div class="linediv-l">
                   <h3>1000</h3> <p>backers</p>
                 </div>
-              </div> 
-        
+              </div>
+
               <div class="span4">
                 <div class="linediv-c">
                   <h3>$5000</h3> <p>of $10,000</p>
@@ -173,30 +174,38 @@
               </div>
 
               </div>
-            </div>  
+            </div>
 
+            <div class="row-fluid">
             <div class="span10 offset1">
               <!-- Bootstrap progress bar -->
               <!-- http://twitter.github.io/bootstrap/components.html#progress -->
               <div class="thermometer progress active">
                 <div class="bar bar-success" style="width: 60%;"></div>
                 <div class="bar bar-warning" style="width: 40%;"></div>
+
               </div>
             </div>
+            </div>
 
+            <div class="row-fluid">
             <div class="span6 offset3 order">
               <!-- Standard Bootstrap button. -->
               <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
               <button class="btn btn-success btn-large">Preorder</button>
             </div>
+            </div>
+
+            <div class="row-fluid">
             <div class="span8 offset2 social">
               <!-- Social buttons are not included in default Bootstrap. -->
               <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
               <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
               <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
             </div>
-
-            </div>      
+            </div>
+            </div>
+            </div>
           </div>
 
           <!-- Beyond this part the marketing copy begins. -->
@@ -206,8 +215,7 @@
 
           <div class="row-fluid section1">
             <div class="span5 offset1 asset">
-              <img class="img-polaroid" src="http://i.imgur.com/ILQm3Cm.jpg">
-
+              <img class="img-polaroid" alt="Image3" src="http://i.imgur.com/ILQm3Cm.jpg">
             </div>
             <div class="span5 copy">
               <p>Set It and Forget It.</p>
@@ -228,7 +236,7 @@
               </p>
             </div>
             <div class="span5 asset">
-              <img class="img-polaroid" src="http://i.imgur.com/FVUUCx1.jpg">
+              <img class="img-polaroid" alt="Image4" src="http://i.imgur.com/FVUUCx1.jpg">
             </div>
           </div>
 
@@ -263,13 +271,14 @@
                     <div class="accordion-inner">
                       Just click the sign up button!
                     </div>
-                  </div>
+
                   </div>
                 </div>
 
               </div>
             </div>
-  	      </div> 
+
+  	      </div>
 
       <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
       <!-- http://creativecommons.org/licenses/ -->
